@@ -152,9 +152,6 @@ uint8_t const desc_fs_configuration[] = {
   // Interface number, string index, protocol, report descriptor len, EP In address, size & polling interval
   TUD_HID_DESCRIPTOR(ITF_NUM_KEYBOARD, 5, HID_ITF_PROTOCOL_KEYBOARD, sizeof(desc_hid_keyboard_report), EPNUM_KEYBOARD, CFG_TUD_HID_EP_BUFSIZE, 1),
 
-
-  // 2nd CDC: Interface number, string index, EP notification address and size, EP data address (out, in) and size.
-//  TUD_CDC_DESCRIPTOR(ITF_NUM_CDC_1, 4, EPNUM_CDC_1_NOTIF, 16, EPNUM_CDC_1_OUT, EPNUM_CDC_1_IN, 64),
 };
 
 #if TUD_OPT_HIGH_SPEED
