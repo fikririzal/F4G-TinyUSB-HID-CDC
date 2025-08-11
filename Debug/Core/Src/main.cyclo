@@ -1,0 +1,16 @@
+../Core/Src/main.c:88:5:main	1
+../Core/Src/main.c:140:6:SystemClock_Config	3
+../Core/Src/main.c:186:13:MX_USB_OTG_FS_PCD_Init	2
+../Core/Src/main.c:221:13:MX_GPIO_Init	1
+../Core/Src/main.c:256:13:echo_serial_port	5
+../Core/Src/main.c:276:6:tud_mount_cb	1
+../Core/Src/main.c:281:6:tud_umount_cb	1
+../Core/Src/main.c:288:13:cdc_task	4
+../Core/Src/main.c:318:6:tud_cdc_line_state_cb	1
+../Core/Src/main.c:344:6:hid_task	11
+../Core/Src/main.c:427:6:tud_hid_set_protocol_cb	1
+../Core/Src/main.c:439:6:tud_hid_report_complete_cb	1
+../Core/Src/main.c:451:10:tud_hid_get_report_cb	1
+../Core/Src/main.c:465:6:tud_hid_set_report_cb	5
+../Core/Src/main.c:499:6:led_blinking_task	2
+../Core/Src/main.c:517:6:Error_Handler	1

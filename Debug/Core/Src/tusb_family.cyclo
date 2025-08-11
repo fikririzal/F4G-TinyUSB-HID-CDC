@@ -1,0 +1,9 @@
+../Core/Src/tusb_family.c:32:6:OTG_FS_IRQHandler	1
+../Core/Src/tusb_family.c:43:6:board_init	1
+../Core/Src/tusb_family.c:130:8:myboard_usb_get_serial	4
+../Core/Src/tusb_family.c:160:6:board_led_write	1
+../Core/Src/tusb_family.c:172:10:board_button_read	1
+../Core/Src/tusb_family.c:181:8:board_get_unique_id	1
+../Core/Src/tusb_family.c:197:6:SysTick_Handler	1
+../Core/Src/tusb_family.c:202:10:board_millis	1
+../Core/Src/tusb_family.c:208:6:HardFault_Handler	1
