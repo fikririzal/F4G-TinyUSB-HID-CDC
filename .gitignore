@@ -1,6 +1,5 @@
 # STM32CubeIDE
 .metadata/
-.settings/
 *.ld
 
 # Prerequisites
